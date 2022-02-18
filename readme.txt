@@ -27,16 +27,16 @@ xpp basenetTA.ode -silent -setfile basenetTA.ode.set
 
 Note that in the ode file:
 
-— The line “only t,fv1,v1” means that only these three variables will
+- The line "only t,fv1,v1" means that only these three variables will
 be saved.
 
-— The line “@ output=b31range_ton.test” specifies that these variables
+- The line "@ output=b31range_ton.test" specifies that these variables
 will be saved into the file b31range_ton.test. This can be edited to
 save data under a different file name.  Values of each variable are
 saved in a corresponding column in the file.
 
-— The additional numerical instructions set up integration over a
+- The additional numerical instructions set up integration over a
 range of values of a parameter; the default parameter is b31.  This
 range information also shows up in the set file.  To change it for a
 particular run, I change the information in the set file, where it is
-stored under “#Range information”.
+stored under "#Range information".
